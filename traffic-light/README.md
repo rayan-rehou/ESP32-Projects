@@ -1,4 +1,6 @@
-# Button-Controlled Traffic Light
+# Basic Traffic Light
+
+> My first traffic light. For the version with two streets, a car sensor and an LCD, see [Smart Traffic Light with Car Sensor](../smart-traffic-light/).
 
 Press **ON** and the LEDs light up in sequence: green, then yellow 5 seconds later, then red 2 seconds after that. Press **OFF** and all three turn off.
 
