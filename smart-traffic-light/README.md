@@ -1,6 +1,6 @@
-# Smart Traffic Light with Car Sensor
+# Sensor-Triggered Traffic Light Controller
 
-![Smart traffic light running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
+![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
 
 An intersection with a **main street** and a **side street**, built on a breadboard with an ESP32 and programmed in C++ (Arduino IDE, board: **ESP32 Dev Module**).
 
