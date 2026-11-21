@@ -2,11 +2,11 @@
 
 ESP32 projects I built and tested on a real breadboard, programmed in C++ with the Arduino framework (Arduino IDE, board: **ESP32 Dev Module**).
 
-![Smart traffic light running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
+![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
 
 | Project | What it does | Demo |
 |---|---|---|
-| [Smart Traffic Light with Car Sensor](smart-traffic-light/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.netlify.app/#smartlight) |
+| [Sensor-Triggered Traffic Light Controller](smart-traffic-light/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.netlify.app/#smartlight) |
 | [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.netlify.app/#led) |
 | [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.netlify.app/#wifi) |
 | [Basic Traffic Light](traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.netlify.app/#traffic) |
