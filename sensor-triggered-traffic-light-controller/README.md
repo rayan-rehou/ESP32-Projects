@@ -1,12 +1,12 @@
 # Sensor-Triggered Traffic Light Controller
 
-![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
+![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.github.io/smart-traffic-light-demo.gif?v=1)
 
 An intersection with a **main street** and a **side street**, built on a breadboard with an ESP32 and programmed in C++ (Arduino IDE, board: **ESP32 Dev Module**).
 
 The main street stays green until an **HC-SR04 ultrasonic sensor** detects a car waiting on the side street. Then the buzzer beeps twice, a **16×2 LCD** shows a message, and the lights run a full cycle with all-red safety buffers.
 
-▶ **Watch the full video and try the interactive simulation:** [rayan-rehou.netlify.app/#smartlight](https://rayan-rehou.netlify.app/#smartlight)
+▶ **Watch the full video and try the interactive simulation:** [rayan-rehou.github.io/#smartlight](https://rayan-rehou.github.io/#smartlight)
 
 ## How it works
 
