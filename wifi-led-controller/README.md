@@ -10,7 +10,7 @@ On startup the board creates its own Wi-Fi network, **ESP32-Light**, and also tr
 
 Each tap sends an HTTP request to the ESP32 (web server on port 80), which sets GPIO 2 and replies with a short status such as "Light is off".
 
-Demo video filmed on the real board, plus a recreation of the page: [rayan-rehou.netlify.app/#wifi](https://rayan-rehou.netlify.app/#wifi)
+Demo video filmed on the real board, plus a recreation of the page: [rayan-rehou.github.io/#wifi](https://rayan-rehou.github.io/#wifi)
 
 ## Serial Monitor output
 
