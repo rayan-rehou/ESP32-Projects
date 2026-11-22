@@ -2,7 +2,7 @@
 
 An ESP32 with an HC-SR04 ultrasonic sensor mounted above a cup. It measures the water, shows the height and fill level live on a 16×2 I2C LCD, and turns on a red LED and a buzzer at 80 % to warn before the cup overflows.
 
-**Watch the demo, then try the simulation and the interactive schematic:** [rayan-rehou.netlify.app/#watercup](https://rayan-rehou.netlify.app/#watercup)
+**Watch the demo, then try the simulation and the interactive schematic:** [rayan-rehou.github.io/#watercup](https://rayan-rehou.github.io/#watercup)
 
 Status: built and tested on a real breadboard (November 2026).
 
