@@ -4,7 +4,7 @@
 
 Press **ON** and the LEDs light up in sequence: green, then yellow 5 seconds later, then red 2 seconds after that. Press **OFF** and all three turn off.
 
-Demo video, photos of the real build and a clickable simulation: [rayan-rehou.netlify.app/#traffic](https://rayan-rehou.netlify.app/#traffic)
+Demo video, photos of the real build and a clickable simulation: [rayan-rehou.github.io/#traffic](https://rayan-rehou.github.io/#traffic)
 
 ## Wiring
 
