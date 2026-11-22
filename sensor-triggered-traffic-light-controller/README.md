@@ -66,6 +66,6 @@ The main street stays green until an **HC-SR04 ultrasonic sensor** detects a car
 
 1. Install the **LiquidCrystal_I2C** library in the Arduino IDE.
 2. Select the board **ESP32 Dev Module**.
-3. Open [`Smart_Traffic_Light.ino`](Smart_Traffic_Light.ino) and upload it.
+3. Open [`Sensor_Triggered_Traffic_Light_Controller.ino`](Sensor_Triggered_Traffic_Light_Controller.ino) and upload it.
 
 The code uses `delay()`, so the sensor is not read while a light cycle is running.
