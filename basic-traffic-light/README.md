@@ -1,6 +1,6 @@
 # Basic Traffic Light
 
-> My first traffic light. For the version with two streets, a car sensor and an LCD, see [Smart Traffic Light with Car Sensor](../smart-traffic-light/).
+> My first traffic light. For the version with two streets, a car sensor and an LCD, see [Sensor-Triggered Traffic Light Controller](../sensor-triggered-traffic-light-controller/).
 
 Press **ON** and the LEDs light up in sequence: green, then yellow 5 seconds later, then red 2 seconds after that. Press **OFF** and all three turn off.
 
@@ -32,6 +32,6 @@ Notes:
 
 ## Run it
 
-1. Open `Traffic_LIGHTS.ino` in the Arduino IDE.
+1. Open `Basic_Traffic_Light.ino` in the Arduino IDE.
 2. Select the board **ESP32 Dev Module** and the right COM port.
 3. Upload, then press ON.
