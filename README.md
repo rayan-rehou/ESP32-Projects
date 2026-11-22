@@ -2,15 +2,15 @@
 
 ESP32 projects I built and tested on a real breadboard, programmed in C++ with the Arduino framework (Arduino IDE, board: **ESP32 Dev Module**).
 
-![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.netlify.app/smart-traffic-light-demo.gif?v=1)
+![Sensor-triggered traffic light controller running on the real board](https://rayan-rehou.github.io/smart-traffic-light-demo.gif?v=1)
 
 | Project | What it does | Demo |
 |---|---|---|
-| [Sensor-Triggered Traffic Light Controller](sensor-triggered-traffic-light-controller/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.netlify.app/#smartlight) |
-| [Water Cup Level Indicator](water-cup-level-indicator/) | An ultrasonic sensor above a cup measures the water, an I2C LCD shows the height and fill level live, and a red LED and buzzer warn at 80 % before it overflows | [Watch and try it](https://rayan-rehou.netlify.app/#watercup) |
-| [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.netlify.app/#wifi) |
-| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.netlify.app/#led) |
-| [Basic Traffic Light](basic-traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.netlify.app/#traffic) |
+| [Sensor-Triggered Traffic Light Controller](sensor-triggered-traffic-light-controller/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.github.io/#smartlight) |
+| [Water Cup Level Indicator](water-cup-level-indicator/) | An ultrasonic sensor above a cup measures the water, an I2C LCD shows the height and fill level live, and a red LED and buzzer warn at 80 % before it overflows | [Watch and try it](https://rayan-rehou.github.io/#watercup) |
+| [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.github.io/#wifi) |
+| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.github.io/#led) |
+| [Basic Traffic Light](basic-traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.github.io/#traffic) |
 
 ## Hardware
 
@@ -36,4 +36,4 @@ ESP32 projects I built and tested on a real breadboard, programmed in C++ with t
 
 These are the building blocks for my **Smart Temperature Monitor**, which reads a DHT22 sensor and sends its readings online.
 
-Portfolio: [rayan-rehou.netlify.app](https://rayan-rehou.netlify.app)
+Portfolio: [rayan-rehou.github.io](https://rayan-rehou.github.io)
