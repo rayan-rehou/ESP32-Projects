@@ -6,16 +6,18 @@ ESP32 projects I built and tested on a real breadboard, programmed in C++ with t
 
 | Project | What it does | Demo |
 |---|---|---|
-| [Sensor-Triggered Traffic Light Controller](smart-traffic-light/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.netlify.app/#smartlight) |
-| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.netlify.app/#led) |
+| [Sensor-Triggered Traffic Light Controller](sensor-triggered-traffic-light-controller/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.netlify.app/#smartlight) |
+| [Water Cup Level Indicator](water-cup-level-indicator/) | An ultrasonic sensor above a cup measures the water, an I2C LCD shows the height and fill level live, and a red LED and buzzer warn at 80 % before it overflows | [Watch and try it](https://rayan-rehou.netlify.app/#watercup) |
 | [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.netlify.app/#wifi) |
-| [Basic Traffic Light](traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.netlify.app/#traffic) |
+| [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.netlify.app/#led) |
+| [Basic Traffic Light](basic-traffic-light/) | Push buttons start and stop a green → yellow → red LED sequence | [Watch and try it](https://rayan-rehou.netlify.app/#traffic) |
 
 ## Hardware
 
 - ESP32 DevKit
 - Breadboard and jumper wires
 - LEDs with 220 Ω resistors
+- 1 kΩ resistors (voltage divider for the sensor's 5 V Echo signal)
 - Push buttons
 - HC-SR04 ultrasonic sensor
 - Active buzzer
@@ -28,7 +30,8 @@ ESP32 projects I built and tested on a real breadboard, programmed in C++ with t
 - Receiving commands from a computer over USB serial
 - Wi-Fi on the ESP32: creating an access point and serving a web page on port 80
 - Measuring distance with an ultrasonic sensor and `pulseIn()`
-- I2C communication with an LCD on custom pins (`Wire.begin(16, 17)`)
+- Bringing a 5 V signal down to 3.3 V with a voltage divider, and calibrating a sensor with real measurements
+- I2C communication with an LCD on custom pins (`Wire.begin(16, 17)` and `Wire.begin(18, 5)`)
 - Debugging real hardware: pin conflicts, power issues, and timing bugs
 
 These are the building blocks for my **Smart Temperature Monitor**, which reads a DHT22 sensor and sends its readings online.
