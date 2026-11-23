@@ -7,7 +7,7 @@ ESP32 projects I built and tested on a real breadboard, programmed in C++ with t
 | Project | What it does | Demo |
 |---|---|---|
 | [Sensor-Triggered Traffic Light Controller](sensor-triggered-traffic-light-controller/) | Two streets with 6 LEDs. An ultrasonic sensor detects a waiting car, a buzzer beeps, an I2C LCD shows a message, and the lights change safely | [Watch and try it](https://rayan-rehou.github.io/#smartlight) |
-| [Joystick Motor Control](joystick-motor-control/) | A joystick drives a stepper motor: faster the further you push, stops in a dead zone, tracks the angle, stops at ±180° and sets zero with a click | [Watch and try it](https://rayan-rehou.github.io/#jogctl) |
+| [Joystick Motor Control](https://github.com/rayan-rehou/uORover-Projects/tree/main/joystick-motor-control) (in my uORover repo) | A joystick drives a stepper motor: faster the further you push, stops in a dead zone, tracks the angle, stops at ±180° and sets zero with a click | [Watch and try it](https://rayan-rehou.github.io/#jogctl) |
 | [Water Cup Level Indicator](water-cup-level-indicator/) | An ultrasonic sensor above a cup measures the water, an I2C LCD shows the height and fill level live, and a red LED and buzzer warn at 80 % before it overflows | [Watch and try it](https://rayan-rehou.github.io/#watercup) |
 | [Wi-Fi LED Controller](wifi-led-controller/) | The ESP32 hosts a web page, and a phone turns an LED on, makes it flash, or turns it off | [Watch and try it](https://rayan-rehou.github.io/#wifi) |
 | [Multi-Mode LED Animation](multi-mode-led-animation/) | 8 LEDs with two light animations, chosen with 3 push buttons or from a computer over USB serial | [Watch and try it](https://rayan-rehou.github.io/#led) |
